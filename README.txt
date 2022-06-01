@@ -29,7 +29,7 @@ root                         (project root folder)
 +-- Word.cs                  (file for Word class)
 +-- TerminalService.cs       (file for TerminalService class)
 +-- README.md                (general info)
-+-- unit03-jumper.csproj    (dotnet project file)
++-- unit03-jumper.csproj     (dotnet project file)
 ```
 
 ## Required Technologies
