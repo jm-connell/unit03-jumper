@@ -14,7 +14,7 @@ namespace Unit03.Game
         public string currentWord = "";
         StringBuilder wordProgress = new StringBuilder();
         /// <summary>
-        /// Constructs a new instance of Word. 
+        /// Constructs a new instance of Word.
         /// </summary>
         public Word()
         {
@@ -31,7 +31,7 @@ namespace Unit03.Game
         private string GetWord()
         {
             Random random = new Random();
-            string word = wordList[random.Next(0, 4)];
+            string word = wordList[random.Next(0, 17)];
             return word;
         }
 
